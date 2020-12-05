@@ -25,3 +25,8 @@ tags: []
 console.log("This is JavaScript code.");
 ```
 
+## リンクのテスト
+
+- [[link1]]
+- [[リンク2]]
+- [[空白あり リンク]]
