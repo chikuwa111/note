@@ -1,7 +1,9 @@
 <footer class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-  {% if site.github.private != true and site.github.license %}
-  <p>
-    This site is open source. {% github_edit_link "Improve this page" %}.
-  </p>
+  <a href="/">Top Page</a>
+  {% if site.twitter_username %}
+  | <a href="https://twitter.com/{{ site.twitter_username | cgi_escape | escape }}">Twitter</a>
+  {% endif %}
+  {% if site.github_username %}
+  | <a href="https://github.com/{{ site.github_username | cgi_escape | escape }}">GitHub</a>
   {% endif %}
 </footer>
