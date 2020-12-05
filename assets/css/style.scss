@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
-.site-title h1 {
+.site-title {
   font-size: 1.5em;
+  margin-top: 0;
 }
