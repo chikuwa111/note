@@ -4,7 +4,7 @@ layout: default
 
 {{ content }}
 
-{% assign pages = site.pages %}
+{% assign pages = site.pages | sort: "date" | reverse %}
 
 <ul id="page-list">
   {%- for page in pages -%}
