@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% assign posts = site.posts %}
+
+<ul id="page-list">
+  {%- for post in posts -%}
+  {% assign title = post.title | escape %}
+  <li>
+    <a title="{{ title }}" href="{{ title }}">
+      {{ title }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
