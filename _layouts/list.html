@@ -4,11 +4,11 @@ layout: default
 
 {{ content }}
 
-{% assign posts = site.posts %}
+{% assign pages = site.pages %}
 
 <ul id="page-list">
-  {%- for post in posts -%}
-  {% assign title = post.title | escape %}
+  {%- for page in pages -%}
+  {% assign title = page.title | escape %}
   <li>
     <a title="{{ title }}" href="{{ title }}">
       {{ title }}
