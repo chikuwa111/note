@@ -1,7 +1,11 @@
 include: ['_notes']
 lang: ja
 title: blog.chikuwa111.com
-permalink: pretty
+
+permalink: /:title
+collections:
+  notes:
+    output: true
 
 # jekyll-seo-tag
 
