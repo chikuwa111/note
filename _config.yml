@@ -5,7 +5,6 @@ permalink: /:title
 collections:
   notes:
     output: true
-    permalink: /:title
 
 defaults:
   - scope:
