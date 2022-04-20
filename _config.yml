@@ -1,11 +1,8 @@
 lang: ja
 title: blog.chikuwa111.com
 
+include: [_notes]
 permalink: /:basename
-collections:
-  notes:
-    output: true
-    permalink: /:basename
 
 defaults:
   - scope:
