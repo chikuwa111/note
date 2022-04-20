@@ -1,11 +1,8 @@
 lang: ja
 title: blog.chikuwa111.com
 
-permalink: /:title
-collections:
-  notes:
-    output: true
-    permalink: /:title
+include: [_notes]
+permalink: /:basename
 
 defaults:
   - scope:
