@@ -1,7 +1,5 @@
 ---
-published: true
 layout: list
-tags: []
 ---
 
 # Archive
