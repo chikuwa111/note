@@ -7,17 +7,3 @@
   font-size: 1.5em;
   margin-top: 0;
 }
-
-// wikilink
-
-.markdown-body a[title]:not([href^="http"]) {
-  &::before {
-    content: "[[";
-    opacity: 0.5;
-  }
-
-  &::after {
-    content: "]]";
-    opacity: 0.5;
-  }
-}
