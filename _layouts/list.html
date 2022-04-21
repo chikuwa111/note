@@ -9,7 +9,7 @@ layout: default
 <ul id="page-list">
   {%- for page in pages -%}
   <li>
-    <pre>{{ page.date | date: "%Y-%m-%d" }} </pre>
+    <span>{{ page.date | date: "%Y-%m-%d" }}</span>
     <a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
   </li>
   {% endfor %}
