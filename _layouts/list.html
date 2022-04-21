@@ -10,8 +10,9 @@ layout: default
   {%- for page in pages -%}
   <li>
     <a title="{{ page.title | escape }}" href="{{ page.url | relative_url }}">
-      {{ page.title | escape }} ({{ page.date | date: "%Y-%m-%d" }})
+      {{ page.title | escape }}
     </a>
+    <span> ({{ page.date | date: "%Y-%m-%d" }})</span>
   </li>
   {% endfor %}
 </ul>
