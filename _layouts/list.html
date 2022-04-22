@@ -4,7 +4,7 @@ layout: default
 
 {{ content }}
 
-{% assign pages = site.notes | sort "mdate" | reverse %}
+{% assign pages = site.notes | sort "last_modified_date" | reverse %}
 
 <ul class="no-list">
   {%- for page in pages -%}
