@@ -5,5 +5,10 @@
 
 #site-title {
   font-size: 1.5em;
-  margin-top: 0;
+  font-weight: 600;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  border-bottom: none;
 }
