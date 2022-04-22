@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    <div class="container-md px-3 my-5 markdown-body">
+
+      {%- include header.html -%}
+
+      <main>
+
+        {{ content }}
+
+      </main>
+
+      {%- include footer.html -%}
+
+    </div>
+
+    {%- include script.html -%}
+
+  </body>
+</html>
