@@ -8,9 +8,10 @@
   font-weight: 600;
 }
 
-.markdown-body h1,
-.markdown-body h2 {
-  border-bottom: none;
+.markdown-body {
+  h1, h2 {
+    border-bottom: none;
+  }
 }
 
 .body {
@@ -20,4 +21,12 @@
 .main {
   flex-grow: 1;
   flex-shrink: 0;
+}
+
+.main-container > *:first-child {
+  margin-top: 0 !important;
+}
+
+.main-container > *:last-child {
+  margin-bottom: 0 !important;
 }
