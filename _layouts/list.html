@@ -10,7 +10,8 @@ layout: default
   {%- for page in pages -%}
   <li class="mb-3">
     <span class="page-list-date">{{ page.last_modified_date | date: "%b %-d, %Y" }}</span>
-    <a class="d-block page-list-title" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+    <br />
+    <a class="page-list-title" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
   </li>
   {% endfor %}
 </ul>
