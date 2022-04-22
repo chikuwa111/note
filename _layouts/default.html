@@ -3,21 +3,19 @@
 
   {%- include head.html -%}
 
-  <body>
-    <div class="markdown-body">
+  <body class="markdown-body d-flex flex-column body">
 
-      {%- include header.html -%}
+    {%- include header.html -%}
 
-      <main class="container-md">
-        <div class="px-3">
+    <main class="px-3 main">
+      <div class="container-md">
 
-          {{ content }}
+        {{ content }}
 
-        </div>
-      </main>
+      </div>
+    </main>
 
-      {%- include footer.html -%}
+    {%- include footer.html -%}
 
-    </div>
   </body>
 </html>

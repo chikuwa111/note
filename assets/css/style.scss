@@ -12,3 +12,12 @@
 .markdown-body h2 {
   border-bottom: none;
 }
+
+.body {
+  min-height: 100vh;
+}
+
+.main {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
