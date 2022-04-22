@@ -11,15 +11,23 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: "default"
+      layout: "page"
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "post"
+
+# minima
+
+theme: minima
+minima:
+  social_links:
+    twitter: chiquwa111
+    github: chikuwa111
 
 # jekyll-seo-tag
 
 twitter:
   username: chiquwa111
   card: summary
-
-# custom
-
-twitter_username: chiquwa111
-github_username: chikuwa111
