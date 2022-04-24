@@ -4,12 +4,12 @@ layout: default
 
 {{ content }}
 
-{% assign pages = site.notes | sort "last_modified_date" | reverse %}
+{% assign pages = site.notes | reverse %}
 
 <ul class="no-list">
   {%- for page in pages -%}
   <li class="mb-3">
-    <span class="page-list-date">{{ page.last_modified_date | date: "%b %-d, %Y" }}</span>
+    <span class="page-list-date">{{ page.date | date: "%b %-d, %Y" }}</span>
     <br />
     <a class="page-list-title" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
   </li>
