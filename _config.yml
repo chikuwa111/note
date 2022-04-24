@@ -1,4 +1,5 @@
 lang: ja
+timezone: Asia/Tokyo
 title: ちくわのノート
 
 permalink: /:basename
