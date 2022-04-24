@@ -1,5 +1,6 @@
 lang: ja
 timezone: Asia/Tokyo
+markdown: GFM
 title: ちくわのノート
 
 permalink: /:basename
