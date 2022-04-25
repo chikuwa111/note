@@ -10,10 +10,10 @@
 
 chikuwa111は東京出身のWebエンジニアです。
 
-- [https://twitter.com/chiquwa111](https://twitter.com/chiquwa111)
+- https://twitter.com/chiquwa111
   - `chikuwa111`ではないので注意
-- [https://github.com/chikuwa111](https://github.com/chikuwa111)
-- [https://chikuwa111.hatenablog.com/](https://chikuwa111.hatenablog.com/)
-- [https://scrapbox.io/chikuwa111](https://scrapbox.io/chikuwa111)
-- [https://note.com/chikuwa111](https://note.com/chikuwa111)
-- [https://qiita.com/chikuwa111](https://qiita.com/chikuwa111)
+- https://github.com/chikuwa111
+- https://chikuwa111.hatenablog.com/
+- https://scrapbox.io/chikuwa111
+- https://note.com/chikuwa111
+- https://qiita.com/chikuwa111
