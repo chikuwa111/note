@@ -15,6 +15,10 @@ defaults:
     values:
       layout: "default"
 
+titles_from_headings:
+  enabled: true
+  collections: true
+
 # jekyll-seo-tag
 
 twitter:
