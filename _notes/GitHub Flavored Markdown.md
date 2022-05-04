@@ -1,5 +1,5 @@
 ---
-date: 2022-04-27 00:06:23 +0900
+date: 2022-05-04 00:11:07 +0900
 published: true
 ---
 
@@ -7,6 +7,7 @@ published: true
 
 - [[GitHub]]によって作られた[[Markdown]]の仕様
   - 個人的に一番違いを感じるのはURLベタがきのものをリンクにする仕様
+  - 改行の仕様も違うの忘れてた
 - [[GFM]]とも略される
 - 参考
   - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
