@@ -1,0 +1,9 @@
+version: '3'
+services:
+  nginx:
+    image: nginx
+    ports:
+      - 8080:80
+    volumes:
+      - $PWD/../../_site:/usr/share/nginx/html
+      - $PWD/conf:/etc/nginx/conf.d
