@@ -1,4 +1,6 @@
 ---
+backlinks:
+  - Jekyllでコレクションを日時順に並べたいときはdateを使うしかなさそう
 date: 2022-04-27 00:06:23 +0900
 published: true
 ---

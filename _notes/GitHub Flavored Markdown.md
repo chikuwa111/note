@@ -1,4 +1,7 @@
 ---
+backlinks:
+  - GFM
+  - GitHub PagesのJekyllでGitHub Flavored Markdownを使う
 date: 2022-05-04 00:11:07 +0900
 published: true
 ---

@@ -1,4 +1,15 @@
 ---
+backlinks:
+  - Dynalist
+  - GitHub PagesのJekyllでGitHub Flavored Markdownを使う
+  - Obsidian Git
+  - Obsidian Mobile
+  - Obsidian Mobileを使うことを断念した
+  - Obsidian Sync
+  - Obsidianで現在時刻を楽に入力する
+  - Pane Relief
+  - やりたいことの管理方法を考える
+  - タグページ
 date: 2022-05-15 19:21:56 +0900
 published: true
 ---

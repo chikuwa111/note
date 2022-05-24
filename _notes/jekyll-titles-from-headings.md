@@ -1,4 +1,6 @@
 ---
+backlinks:
+  - Jekyllで変にページタイトルが変換されるのを避ける
 date: 2022-04-26 00:33:15 +0900
 published: true
 ---
