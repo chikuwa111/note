@@ -1,5 +1,6 @@
 ---
-backlinks: []
+backlinks:
+  - Windows PCでMac風キーバインドを目指す（G915 TKL編）
 date: 2022-06-09 00:05:08 +0900
 published: true
 ---
