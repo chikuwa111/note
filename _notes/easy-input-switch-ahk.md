@@ -1,7 +1,8 @@
 ---
 backlinks:
+  - G915 TKLとMagic Keyboardの二刀流を検討する
   - Windows PCでMac風キーバインドを目指す（G915 TKL編）
-date: 2022-09-08 00:02:19 +0900
+date: 2022-10-02 23:06:02 +0900
 published: true
 ---
 
@@ -9,10 +10,13 @@ published: true
 
 - [[AutoHotKey]]のスクリプト
 	- RCtrl単体押しで無変換キーを送信
+	- LAlt単体押しで無変換キーを送信
 	- RAlt単体押しで変換キーを送信
 
 ```ahk
-; ref: https://github.com/karakaram/alt-ime-ahk/blob/master/alt-ime-ahk.ahk
+; ref:
+; - https://github.com/karakaram/alt-ime-ahk/blob/master/alt-ime-ahk.ahk
+; - https://github.com/nekocodeX/alt-ime-ahk-mod/blob/main/alt-ime-ahk-mod.ahk
 
 ; 主要なキーをHotKeyに設定し、何もせずパススルーする
 *~a::
@@ -125,7 +129,16 @@ RCtrl Up::
   Return
 
 ; 上部メニューがアクティブになるのを抑制
-*~RAlt::Send {Blind}{vk07}
+*~LAlt::Send {Blind}{vkFF}
+*~RAlt::Send {Blind}{vkFF}
+
+; 左Alt空打ちで無変換を送信
+LAlt Up::
+  if (A_PriorHotkey == "*~LAlt")
+  {
+    Send, {vk1D}
+  }
+  Return
 
 ; 右Alt空打ちで変換を送信
 RAlt Up::
