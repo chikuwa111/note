@@ -1,14 +1,14 @@
 ---
 backlinks:
   - Windows PCでMac風キーバインドを目指す（G915 TKL編）
-date: 2022-09-07 17:36:16 +0900
+date: 2022-10-15 00:29:18 +0900
 published: true
 ---
 
 # emacs-like-key-bindings-ahk
 
 - [[AutoHotKey]]のスクリプト
-	- [[Mac OS]]で見られる[[Emacs]]風のキーバインドを設定する
+  - [[Mac OS]]で見られる[[Emacs]]風のキーバインドを設定する
 
 ```ahk
 LCtrl & a::send_custom_command("{Home}")
@@ -29,7 +29,7 @@ send_custom_command(command) {
   }
   if GetKeyState("Shift", "P") {
     m = %m%+
-  } 
+  }
   if GetKeyState("Alt", "P") {
     m = %m%!
   }

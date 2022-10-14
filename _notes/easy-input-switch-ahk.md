@@ -2,16 +2,16 @@
 backlinks:
   - G915 TKLとMagic Keyboardの二刀流を検討する
   - Windows PCでMac風キーバインドを目指す（G915 TKL編）
-date: 2022-10-02 23:06:02 +0900
+date: 2022-10-15 00:29:18 +0900
 published: true
 ---
 
 # easy-input-switch-ahk
 
 - [[AutoHotKey]]のスクリプト
-	- RCtrl単体押しで無変換キーを送信
-	- LAlt単体押しで無変換キーを送信
-	- RAlt単体押しで変換キーを送信
+  - RCtrl単体押しで無変換キーを送信
+  - LAlt単体押しで無変換キーを送信
+  - RAlt単体押しで変換キーを送信
 
 ```ahk
 ; ref:
